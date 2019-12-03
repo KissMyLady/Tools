@@ -3,7 +3,8 @@
 
 ## 预览图   
 一图胜千语  
-![]()  
+![goddess1](https://github.com/KissMyLady/Daily_Tools_Create/blob/master/Goddess/goddess.jpg)   
+![goddess2](https://github.com/KissMyLady/Daily_Tools_Create/blob/master/Goddess/goddess2.jpg)  
 
 > 柏拉图有一天问老师苏格拉底什么是爱情  
 > 苏格拉底叫他到麦田走一次  
@@ -33,7 +34,9 @@
 通过模拟， 这样女神有75%的几率是'成功人士'  
 努力努力再努力吧， 让自己变得具有可塑性，   
 ### 程序模拟图
-! []()  
+在模拟1000遍， 每次谈恋爱100次情况下，女神的成功率是75%, 看来非常高    
+这还是100分中的， 90分的标准， 真实情况下， 80%对大部分人来说也很不错了    
+! [goddess3](https://github.com/KissMyLady/Daily_Tools_Create/blob/master/Goddess/goddess3.jpg)   
 代码在末尾  
 
 ## 结  论:
