@@ -2,7 +2,8 @@
 ====
 
 ## 预览图   
-一图胜千语  
+一图胜千语
+- [李老师油管视频链接](https://www.youtube.com/watch?v=pelPCK22W7k)
 ![goddess1](https://github.com/KissMyLady/Daily_Tools_Create/blob/master/Goddess/goddess.jpg)   
 ![goddess2](https://github.com/KissMyLady/Daily_Tools_Create/blob/master/Goddess/goddess2.jpg)  
 
