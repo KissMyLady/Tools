@@ -36,7 +36,7 @@
 ### 程序模拟图
 在模拟1000遍， 每次谈恋爱100次情况下，女神的成功率是75%, 看来非常高    
 这还是100分中的， 90分的标准， 真实情况下， 80%对大部分人来说也很不错了    
-! [goddess3](https://github.com/KissMyLady/Daily_Tools_Create/blob/master/Goddess/goddess3.jpg)   
+![goddess3](https://github.com/KissMyLady/Daily_Tools_Create/blob/master/Goddess/goddess3.jpg)   
 代码在末尾  
 
 ## 结  论:
