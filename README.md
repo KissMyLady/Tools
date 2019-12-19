@@ -17,3 +17,6 @@
 ## :floppy_disk: 视频转图片
 简介: 指定大小，指定间隔帧数保存  
 - [视频转图片工具链接](https://github.com/KissMyLady/Exchaneg-video-to-photo)
+
+## :watermelon: 虚拟机MacOS安装教程  
+- [点击进入MacOS教程安装](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
