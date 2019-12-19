@@ -2,7 +2,6 @@
 ======
 
 ## :bulb: 女神选备胎问题  
-简介:  恋爱的真相是什么？ 或许数学能够告诉我们答案  
 - [不要成为37%的样本](https://github.com/KissMyLady/Daily_Tools_Create/blob/master/Goddess/Goddess_test.md)    
 
 
@@ -11,12 +10,11 @@
 
 
 ## :pencil2: 词  云  
-简介: 输入txt，图形模板，即可生成指定形状词云    
-- [词云工具链接](https://github.com/KissMyLady/Word_Cloud)  
+输入txt，图形模板，即可生成指定形状词云    
+- [点击进入词云](https://github.com/KissMyLady/Word_Cloud)  
 
 ## :floppy_disk: 视频转图片
-简介: 指定大小，指定间隔帧数保存  
-- [视频转图片工具链接](https://github.com/KissMyLady/Exchaneg-video-to-photo)
+- [点击进入工具](https://github.com/KissMyLady/Exchaneg-video-to-photo)
 
 ## :watermelon: 虚拟机MacOS安装教程  
 - [点击进入MacOS教程安装](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
