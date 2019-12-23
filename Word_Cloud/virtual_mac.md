@@ -9,8 +9,8 @@
 >> 3.5、VirtualBox官网下免费的就可以，不要另外安什么插件      
 
 效果图:   
-1、如果使用的是VMware软件，里面有自带的优化功能，Mac最后使用起来会非常流畅，可以和ubuntu媲美了      
 ![mac-3](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/mac-3.jpg)    
+1、如果使用的是VMware软件，里面有自带的优化功能，Mac最后使用起来会非常流畅，可以和ubuntu媲美了   
 2、如果使用的是VirtualBox, 它没有任何优化，所有的GUI都是CPU虚拟出来的，一个字, 卡    
 
 3、建议下载VMware、 当然，你需要一个好资源(网上有很多版本，你可以通过搜索引擎找到)   
