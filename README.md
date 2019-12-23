@@ -1,10 +1,10 @@
-思维工具小集合---教 程  
+算法思维与工具小集合     
 ======
 
 ## :floppy_disk: 大型工具
-- [点击进入--Git工具使用](https://github.com/CyC2018/CS-Notes/blob/master/notes/Git.md)    
 - [点击进入--Redis分布式集群搭建](https://github.com/KissMyLady/Tools/blob/master/note/redis_goup.md)  
 - [点击进入--Linux命令与使用](https://github.com/KissMyLady/Tools/blob/master/note/linux_com.md)    
+- [点击进入--Git工具使用](https://github.com/CyC2018/CS-Notes/blob/master/notes/Git.md)    
 
 
 ## :bulb: 永乐大帝(李永乐老师)  
