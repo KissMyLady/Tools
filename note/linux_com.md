@@ -3,7 +3,7 @@ Linux常用命令与配置
 
 ## 文件配置  
 ![linux-1](https://github.com/KissMyLady/Tools/blob/master/img/linux-1.jpg)  
-- [点击进入--Ubuntu安装教程](https://github.com/KissMyLady/Python/blob/master/Nont/Linux/ubuntu_apt_get.md)  
+
 
 ## 删除包的方法    
 删除软件及其配置文件   
@@ -167,5 +167,41 @@ ps命令
 使用PS实时监控进程状态  
 > watch -n 1 'ps -aux --sort -pmem, -pcpu'  
 
+
+
+Ubuntu软件操作的相关命令 
+=====   
+```Linux
+sudo apt-get update  更新源  
+sudo apt-get upgrade 更新已安装的包
+sudo apt-get dist-upgrade 升级系统  
+
+sudo apt-get install package 安装包      
+sudo apt-get build-dep package 安装相关的编译环境 
+
+sudo apt-get remove package 删除包    
+sudo apt-get clean && sudo apt-get autoclean 清理无用的包  
+sudo apt-get remove package --purge 删除包，包括配置文件等  
+
+sudo apt-get install package --reinstall     重新安装包  
+sudo apt-get check 检查是否有损坏的依赖  
+sudo apt-get -f install   修复安装  
+sudo apt-get source package  下载该包的源代码  
+
+sudo apt-cache search package 搜索软件包  
+sudo apt-cache show package  获取包的相关信息，如说明、大小、版本等  
+sudo apt-cache depends package 了解使用该包依赖那些包  
+sudo apt-cache rdepends package 查看该包被哪些包依赖  
+```
+
+XShell上传文件到服务器   
+=====
+1. 连接上一台Linux服务器   
+2. 输入rz命令，看是否已经安装了lrzsz     
+> 如果没有安装则执行sudo apt-get install lrzsz安装  
+
+3. 输入rz  
+![ScreenShot00006](https://github.com/KissMyLady/Tools/blob/master/img/ScreenShot00006.jpg)  
+> 可以看到弹出文件夹, 选择上传就可以了  
 
 
