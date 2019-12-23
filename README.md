@@ -16,13 +16,14 @@
 - [点击进入--词云](https://github.com/KissMyLady/Word_Cloud)  
 - [点击进入--视频转图片工具](https://github.com/KissMyLady/Exchaneg-video-to-photo)
 
-
-## :watermelon: 教  程  
-- [点击进入--MacOS教程安装](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
-
-
 ## :pencil2: 算法实例讲解  
  - [斐波那契数列](https://github.com/KissMyLady/Tools/blob/master/algorithem/feibo.md)    
+
+## :watermelon: 其他教程   
+- [点击进入--MacOS教程安装(原创)](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
+
+
+
 
 
 
