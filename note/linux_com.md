@@ -3,7 +3,7 @@ Linux常用命令与配置
 
 ## 文件配置  
 ![linux-1](https://github.com/KissMyLady/Tools/blob/master/img/linux-1.jpg)  
-
+- [点击进入--Ubuntu安装教程](https://github.com/KissMyLady/Python/blob/master/Nont/Linux/ubuntu_apt_get.md)  
 
 ## 删除包的方法    
 删除软件及其配置文件   
