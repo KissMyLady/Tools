@@ -4,7 +4,7 @@
 ## :floppy_disk: 大型工具
 - [点击进入--Git工具使用](https://github.com/CyC2018/CS-Notes/blob/master/notes/Git.md)    
 - [点击进入--Redis分布式集群搭建](https://github.com/KissMyLady/Tools/blob/master/note/redis_goup.md)  
-- [Linux命令与使用](https://github.com/KissMyLady/Tools/blob/master/note/linux_com.md)    
+- [点击进入--Linux命令与使用](https://github.com/KissMyLady/Tools/blob/master/note/linux_com.md)    
 
 
 ## :bulb: 永乐大帝(李永乐老师)  
@@ -17,7 +17,7 @@
 - [点击进入--视频转图片工具](https://github.com/KissMyLady/Exchaneg-video-to-photo)
 
 ## :pencil2: 算法实例讲解  
- - [斐波那契数列](https://github.com/KissMyLady/Tools/blob/master/algorithem/feibo.md)    
+ - [点击进入--斐波那契数列](https://github.com/KissMyLady/Tools/blob/master/algorithem/feibo.md)    
 
 ## :watermelon: 其他教程   
 - [点击进入--MacOS教程安装(原创)](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
