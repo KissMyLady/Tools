@@ -111,7 +111,7 @@ slaveof
 > 黄河黄河, 长江收到   
 
 ## 搭建集群前要了解的知识引导   
-###　[为什么要有集群](https://blog.csdn.net/u010498753/article/details/86510939)   
+### [为什么要有集群](https://blog.csdn.net/u010498753/article/details/86510939)   
 1. 一个项目服务(网站)，如果部署在一台Machine上，
 > 所有的请求，都由这一台服务器处理，存在很大风险:    
 
