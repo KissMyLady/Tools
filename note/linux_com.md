@@ -5,48 +5,20 @@ Linux常用命令与配置
 ![linux-1](https://github.com/KissMyLady/Tools/blob/master/img/linux-1.jpg)  
 
 
-## ps命令       
-显示所有当前进程  
-> ps -ax   -a代表all, x参数会显示 没有控制终端的进程    
- 
-根据用户过滤进程   
-> ps -u      
-> ps -u kissmylady  
+## 删除包的方法    
 
-通过cpu和内存使用来过滤进程    
-> ps -aux    
-按照CPU或者内存用量来筛选    
-> 1.根据CPU使用来升序排序   
->> ps -aux --sort -pcpu   
-> 
-> 2.根据内存使用来升序排序     
->> ps -aux --sort -pmem    
->  
-> 3、合并，并显示前10个结果：  
->> ps -aux --sort -pcpu, +pmem | head -n 10  
+#### 删除软件及其配置文件   
+`apt-get --purge remove <package>`    
 
-通过进程名和PID过滤     
-> ps -C getty  
-> ps -f -C getty      -f参数来查看格式化的信息列表  
+#### 删除没用的依赖包  
+`apt-get autoremove <package>`  
 
-根据线程来过滤进程  
-如果我们想知道特定进程的线程，可以使用-L 参数，后面加上特定的PID   
-> ps -L 1213  
-  
-树形显示进程  
-> ps -axjf  或者pstree  
-  
-显示安全信息  
--e显示所有进程信息，-o参数控制输出。Pid,User和Args参数显示PID，运行应用的用户和该应用  
-> ps -eo pid,user,args    
-   
-格式化输出root用户（真实的或有效的UID）创建的进程  
-> ps -U root -u root u  
-  
-使用PS实时监控进程状态  
-> watch -n 1 'ps -aux --sort -pmem, -pcpu'  
+#### # 此时dpkg的列表中有“rc”状态的软件包，可以执行如下命令做最后清理：    
+`dpkg -l |grep ^ruby|awk '{print $2}' |sudo xargs dpkg -P`    
 
-
+### 示例: 删除ruby包   
+`apt-get --purge remove ruby`  
+`apt-get autoremove ruby`  
 
 ## Vim配置与使用  
 安装vim  
@@ -155,6 +127,47 @@ sudo gedit ~/.bashr
 export PATH=$PATH:/opt/google/chrome   # chrome所在的目录     
 ```
 
+
+## ps命令       
+显示所有当前进程  
+> ps -ax   -a代表all, x参数会显示 没有控制终端的进程    
+ 
+根据用户过滤进程   
+> ps -u      
+> ps -u kissmylady  
+
+通过cpu和内存使用来过滤进程    
+> ps -aux    
+按照CPU或者内存用量来筛选    
+> 1.根据CPU使用来升序排序   
+>> ps -aux --sort -pcpu   
+> 
+> 2.根据内存使用来升序排序     
+>> ps -aux --sort -pmem    
+>  
+> 3、合并，并显示前10个结果：  
+>> ps -aux --sort -pcpu, +pmem | head -n 10  
+
+通过进程名和PID过滤     
+> ps -C getty  
+> ps -f -C getty      -f参数来查看格式化的信息列表  
+
+根据线程来过滤进程  
+如果我们想知道特定进程的线程，可以使用-L 参数，后面加上特定的PID   
+> ps -L 1213  
+  
+树形显示进程  
+> ps -axjf  或者pstree  
+  
+显示安全信息  
+-e显示所有进程信息，-o参数控制输出。Pid,User和Args参数显示PID，运行应用的用户和该应用  
+> ps -eo pid,user,args    
+   
+格式化输出root用户（真实的或有效的UID）创建的进程  
+> ps -U root -u root u  
+  
+使用PS实时监控进程状态  
+> watch -n 1 'ps -aux --sort -pmem, -pcpu'  
 
 
 
