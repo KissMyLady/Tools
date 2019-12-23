@@ -6,16 +6,12 @@ Linux常用命令与配置
 
 
 ## 删除包的方法    
-
-#### 删除软件及其配置文件   
+删除软件及其配置文件   
 `apt-get --purge remove <package>`    
-
-#### 删除没用的依赖包  
+删除没用的依赖包  
 `apt-get autoremove <package>`  
-
-#### # 此时dpkg的列表中有“rc”状态的软件包，可以执行如下命令做最后清理：    
+此时dpkg的列表中有“rc”状态的软件包，可以执行如下命令做最后清理：    
 `dpkg -l |grep ^ruby|awk '{print $2}' |sudo xargs dpkg -P`    
-
 ### 示例: 删除ruby包   
 `apt-get --purge remove ruby`  
 `apt-get autoremove ruby`  
