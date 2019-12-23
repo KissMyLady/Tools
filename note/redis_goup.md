@@ -4,7 +4,7 @@ Redis分布式集群搭建
 ![ScreenShot00004](https://github.com/KissMyLady/Tools/blob/master/img/ScreenShot00004.jpg)  
 
 ## 先搭建Redis执行环境   
-#### [下载-点击进入官网下载最新](https://redis.io/)  
+#### [下载-－点击进入官网下载最新](https://redis.io/)  
 > `wget http://download.redis.io/releases/redis-5.0.5.tar.gz`  
 #### 解压  
 > `tar -zxvf redis-3.2.8.tar.gz`  
@@ -79,7 +79,6 @@ slaveof
 ```
   
 
-## 启动服务器/客户端   
 恭喜恭喜, 看见曙光了, 现在可以开始启动了!   
 ### 启动服务器端  
 使⽤help查看帮助⽂档  
@@ -112,7 +111,7 @@ slaveof
 > 黄河黄河, 长江收到   
 
 ## 搭建集群前要了解的知识引导   
-[为什么要有集群](https://blog.csdn.net/u010498753/article/details/86510939)   
+###　[为什么要有集群](https://blog.csdn.net/u010498753/article/details/86510939)   
 1. 一个项目服务(网站)，如果部署在一台Machine上，
 > 所有的请求，都由这一台服务器处理，存在很大风险:    
 
@@ -418,5 +417,4 @@ NoSQL和SQL数据库的比较：
 > 适用场景不同：sql数据库适合用于关系特别复杂的数据查询场景，nosql反之    
 > “事务”特性的支持：sql对事务的支持非常完善，而nosql基本不支持事务    
 > 两者在不断地取长补短，呈现融合趋势  
-
 
