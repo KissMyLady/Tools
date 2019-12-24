@@ -11,7 +11,7 @@ Redis分布式集群搭建
     
 #### 复制    
 将文件放到usr/local⽬录下(可以自己选定其他目录, 但推荐这个,便于日后查找文件)    
-> `sudo mv ./redis-3.2.8 /usr/local/redis/`  
+> `sudo mv ./redis-5.0.5 /usr/local/redis/`  
 #### 进⼊redis⽬录  
 > `cd /usr/local/redis/`  
 
