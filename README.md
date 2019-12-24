@@ -22,7 +22,7 @@
 
 
 ## :watermelon: 其他教程   
-- [点击进入--MacOS教程安装(原创)](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
+- [点击进入--MacOS教程安装](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
 
 
 
