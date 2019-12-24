@@ -7,7 +7,7 @@ Redis分布式集群搭建
 #### [下载-－点击进入官网下载最新](https://redis.io/)  
 > `wget http://download.redis.io/releases/redis-5.0.5.tar.gz`  
 #### 解压  
-> `tar -zxvf redis-3.2.8.tar.gz`  
+> `tar -zxvf redis-5.0.5.tar.gz`  
     
 #### 复制    
 将文件放到usr/local⽬录下(可以自己选定其他目录, 但推荐这个,便于日后查找文件)    
