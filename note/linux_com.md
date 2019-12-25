@@ -1,4 +1,4 @@
-Linux常用命令与配置  
+Linux常用命令与初始化配置  
 ======   
 
 ## 文件配置  
@@ -203,5 +203,120 @@ XShell上传文件到服务器
 3. 输入rz  
 ![ScreenShot00006](https://github.com/KissMyLady/Tools/blob/master/img/ScreenShot00006.jpg)  
 > 可以看到弹出文件夹, 选择上传就可以了  
+
+Linux与Python更换下载源  
+=====
+
+## 进入文件编辑
+`cd /etc/apt/`   
+`sudo vim /etc/apt/sources.list`       
+  
+使用如下命令：   
+```Linux
+lsb_release -c
+```
+得到本系统的系统代号，如下所示:   
+我们可以看到新版本的Ubuntu系统代号为bionic   
+同样的我们也可以得到之前任意版本的系统代号：  
+> Ubuntu 12.04 (LTS)代号为precise  
+> Ubuntu 14.04 (LTS)代号为trusty    
+> Ubuntu 15.04 代号为vivid  
+> Ubuntu 15.10 代号为wily     
+> Ubuntu 16.04 (LTS)代号为xenial  
+> Ubuntu 18.04 (LTS)代号为bionic
+所以这也就解释了为什么我们百度出来的那么多方案里面内容不尽相同的原因，因为他们更改apt安装源时用的系统不一样。   
+将原有的内容(删除)释掉，添加以下内容:     
+```linux  
+deb http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic main restricted universe multiverse
+
+
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-security main restricted universe multiverse
+
+
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-updates main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-backports main restricted universe multiverse
+
+deb http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+
+deb-src http://mirrors.aliyun.com/ubuntu/ bionic-proposed main restricted universe multiverse
+```
+5.更新软件列表
+```Linux
+sudo apt-get update
+```
+6.更新软件包
+```Linux
+sudo apt-get upgrade
+```
+
+## Python更换下载源   
+[点击进入原始作者博客](https://blog.csdn.net/yucicheung/article/details/79095742)    
+国内镜像源列表  
+> 豆瓣(douban) `http://pypi.douban.com/simple/` (推荐)     
+> 清华大学`https://pypi.tuna.tsinghua.edu.cn/simple/`    
+> 阿里云 `http://mirrors.aliyun.com/pypi/simple/`    
+> 中国科技大学 `https://pypi.mirrors.ustc.edu.cn/simple/`   
+> 中国科学技术大学 `http://pypi.mirrors.ustc.edu.cn/simple/`   
+推荐豆瓣/douban镜像源
+
+## 永久置换pip镜像源
+1. 创建pip.conf文件
+运行以下命令:
+`cd ~/.pip`
+
+如果提示目录不存在的话,我们要自行创建一个,再进入目录    
+`mkdir ~/.pip`    
+`cd ~/.pip`    
+  
+2、在.pip目录下创建一个pip.conf文件    
+`touch/vim/vi pip.conf`  
+文件就创建好了(当然如果你已经有这个文件了这步可以跳过)     
+
+2. 编辑pip.conf文件  
+`sudo gedit ~/.pip/pip.conf`   
+
+打开pip.conf文件窗口,将以下内容复制到文件中:  
+```Linux
+[global]   
+index-url = http://pypi.douban.com/simple 
+[install]   
+trusted-host=pypi.douban.com  
+```
+这样就替换成功了,当然你也可以选择其他镜像源   
+
+## 暂时置换镜像源
+```Linux
+pip install pygame -i http://pypi.douban.com/simple
+pip install pygame -i http://pypi.douban.com/simple --trusted-host pypi.douban.com
+```
+实例:
+```Linux
+sudo pip3 install vitrualenvwrapper -i http://pypi.douban.com/simple
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
