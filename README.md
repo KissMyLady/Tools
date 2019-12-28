@@ -19,6 +19,7 @@
 ## :bulb: 永乐大帝(李永乐老师)  
 - [女神选备胎问题--不要成为37%的样本](https://github.com/KissMyLady/Daily_Tools_Create/blob/master/Goddess/Goddess_test.md)  
 - 汉诺塔游戏(递归算法)---敬请期待   
+- [一个小学数学题](#)    
 
 
 ## :watermelon: 其他教程   
