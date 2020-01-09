@@ -2,6 +2,7 @@
 =====
 - [模板来源--点击查看原文](https://www.cnblogs.com/panlq/p/9307203.html)
 
+
 ## 第一种: 递 推  
 优点:  
 > 1、运行时间: O(n)
@@ -46,8 +47,11 @@ for i in range(1, 20):
 
 缺点:  
 > 1、效率最低，会出现大量的重复计算O(1.618^n), 而且最深度1000   
-
-
+解除递归深度方法:   
+```Python
+import sys
+sys.setrecursionlimit(10000)
+```
 
 ## 第三种 生成器
 ```Python 
