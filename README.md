@@ -23,6 +23,7 @@
 
 
 ## :watermelon: 其他教程   
+- [安装TensorFlow](https://github.com/KissMyLady/Deep-Learning/blob/master/Note/tensorflow_install.md)   
 - [点击进入--MacOS教程安装](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
 - [点击进入--如何屏蔽网页广告](https://github.com/KissMyLady/Tools/blob/master/note/adbblock.md)    
 - [上海租房房区间表](https://github.com/KissMyLady/Tools/blob/master/note/shanghai.md)  
