@@ -11,9 +11,7 @@ def get_filelist(dir, Filelist):
         for s in os.listdir(dir):
             if 'you want rename' in s:
                 bb_newDir = s.replace('hm_', '')
-                print(bb_newDir)
                 newDir = os.path.join(dir, s)
-                print(newDir)
                 aaaaa = os.path.join(dir, bb_newDir)
                 os.rename(newDir, aaaaa)
                 get_filelist(newDir, Filelist)
