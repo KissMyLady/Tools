@@ -12,6 +12,7 @@
  
  
 ## :wrench:  小工具
+- [文件批量改名](https://github.com/KissMyLady/Tools/blob/master/note/py_rename.py)    
 - [点击进入--词云](https://github.com/KissMyLady/Word_Cloud)  
 - [点击进入--视频转图片工具](https://github.com/KissMyLady/Exchaneg-video-to-photo)
 
