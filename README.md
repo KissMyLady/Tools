@@ -2,19 +2,19 @@
 ======
 
 ## :floppy_disk: 大型工具
-- [点击进入--Redis分布式集群搭建](https://github.com/KissMyLady/Tools/blob/master/note/redis_goup.md)  
-- [点击进入--Linux命令与使用](https://github.com/KissMyLady/Tools/blob/master/note/linux_com.md)    
-- [点击进入--Git工具使用](https://github.com/CyC2018/CS-Notes/blob/master/notes/Git.md)    
+- [1. Redis分布式集群搭建](https://github.com/KissMyLady/Tools/blob/master/note/redis_goup.md)  
+- [2. Linux命令与使用](https://github.com/KissMyLady/Tools/blob/master/note/linux_com.md)    
+- [3. Git工具使用](https://github.com/CyC2018/CS-Notes/blob/master/notes/Git.md)    
 
 
 ## :pencil2: 算法实例讲解  
- - [点击进入--斐波那契数列](https://github.com/KissMyLady/Tools/blob/master/algorithem/feibo.md)    
- - [快排--Quick_Sock](https://github.com/KissMyLady/Python/blob/master/Nont/Quick_Sort.md)   
+ - [1. 斐波那契数列](https://github.com/KissMyLady/Tools/blob/master/algorithem/feibo.md)    
+ - [2. 快 排](https://github.com/KissMyLady/Python/blob/master/Nont/Quick_Sort.md)   
  
 ## :wrench:  小工具
-- [文件批量改名](https://github.com/KissMyLady/Tools/blob/master/note/py_rename.md)    
-- [小说批量转词云](https://github.com/KissMyLady/Word_Cloud)  
-- [视频批量转图片](https://github.com/KissMyLady/Exchaneg-video-to-photo)
+- [1. 文件批量改名](https://github.com/KissMyLady/Tools/blob/master/note/py_rename.md)    
+- [2. 小说批量转词云](https://github.com/KissMyLady/Word_Cloud)  
+- [3. 视频批量转图片](https://github.com/KissMyLady/Exchaneg-video-to-photo)
 
 
 ## :bulb: 永乐大帝(李永乐老师)  
