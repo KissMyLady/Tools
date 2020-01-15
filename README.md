@@ -9,7 +9,7 @@
 
 ## :pencil2: 算法实例讲解  
  - [点击进入--斐波那契数列](https://github.com/KissMyLady/Tools/blob/master/algorithem/feibo.md)    
- 
+ - [快排--Quick_Sock](https://github.com/KissMyLady/Python/blob/master/Nont/Quick_Sort.md)   
  
 ## :wrench:  小工具
 - [文件批量改名](https://github.com/KissMyLady/Tools/blob/master/note/py_rename.md)    
