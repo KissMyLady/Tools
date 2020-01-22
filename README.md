@@ -21,7 +21,7 @@
 - [女神选备胎问题--不要成为37%的样本](https://github.com/KissMyLady/Daily_Tools_Create/blob/master/Goddess/Goddess_test.md)  
 - 汉诺塔游戏(递归算法)---敬请期待   
 - [一个小学数学题](https://github.com/KissMyLady/Tools/blob/master/note/math_rq.md)      
-
+- [崔永元--教育](https://github.com/KissMyLady/Tools/blob/master/note/cuiyongyuan.md)  
 
 ## :watermelon: 其他教程   
 - [安装TensorFlow](https://github.com/KissMyLady/Deep-Learning/blob/master/Note/tensorflow_install.md)   
