@@ -5,7 +5,7 @@
 - [1. Redis分布式集群搭建](https://github.com/KissMyLady/Tools/blob/master/note/redis_goup.md)  
 - [2. Linux命令与使用](https://github.com/KissMyLady/Tools/blob/master/note/linux_com.md)    
 - [3. Git工具使用](https://github.com/CyC2018/CS-Notes/blob/master/notes/Git.md)    
-- [4. 菜鸟变黑客终极教程](https://github.com/KissMyLady/Tools/blob/master/note/lv_heike.md)  
+- [4. 简单黑客技术教程--约4000行](https://github.com/KissMyLady/Tools/blob/master/note/lv_heike.md)  
 
 ## :pencil2: 算法实例讲解  
  - [1. 斐波那契数列](https://github.com/KissMyLady/Tools/blob/master/algorithem/feibo.md)    
