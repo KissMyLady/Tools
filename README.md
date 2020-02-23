@@ -16,6 +16,7 @@
 - [1. 文件批量改名](https://github.com/KissMyLady/Tools/blob/master/note/py_rename.md)    
 - [2. 小说批量转词云](https://github.com/KissMyLady/Word_Cloud)  
 - [3. 视频批量转图片](https://github.com/KissMyLady/Exchaneg-video-to-photo)
+- [4. 数据可视化](https://github.com/KissMyLady/Tools/blob/master/note/date_vision.md) 
 
 
 ## :bulb: 永乐大帝(李永乐老师)  
