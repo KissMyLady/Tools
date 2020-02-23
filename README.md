@@ -26,6 +26,7 @@
 
 
 ## :watermelon: 其他教程   
+- [翻墙教程--2020年2月24日测试有效果](https://github.com/zhaoweih/Shadowsocks-Tutorial)  
 - [安装TensorFlow](https://github.com/KissMyLady/Deep-Learning/blob/master/Note/tensorflow_install.md)   
 - [点击进入--MacOS教程安装](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
 - [点击进入--如何屏蔽网页广告](https://github.com/KissMyLady/Tools/blob/master/note/adbblock.md)    
