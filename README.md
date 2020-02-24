@@ -25,11 +25,12 @@
 - [一个小学数学题](https://github.com/KissMyLady/Tools/blob/master/note/math_rq.md)      
 
 
-## :watermelon: 其他教程   
-- [翻墙教程--2020年2月24日测试有效果](https://github.com/zhaoweih/Shadowsocks-Tutorial)  
-- [安装TensorFlow](https://github.com/KissMyLady/Deep-Learning/blob/master/Note/tensorflow_install.md)   
-- [点击进入--MacOS教程安装](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
-- [点击进入--如何屏蔽网页广告](https://github.com/KissMyLady/Tools/blob/master/note/adbblock.md)    
-- [上海租房房区间表](https://github.com/KissMyLady/Tools/blob/master/note/shanghai.md)  
-- [平时写的一点小句子](https://github.com/KissMyLady/Tools/blob/master/note/daily_word.md)    
-- [崔永元--教育](https://github.com/KissMyLady/Tools/blob/master/note/cuiyongyuan.md)  
+## :watermelon: 其他教程    
+- [Linux--Ubuntu安装Java](https://github.com/KissMyLady/Java/blob/master/Note/ut_install_java.md)    
+- [Windows--2020年2月24日测试有效果](https://github.com/zhaoweih/Shadowsocks-Tutorial)  
+- [Windows--安装TensorFlow](https://github.com/KissMyLady/Deep-Learning/blob/master/Note/tensorflow_install.md)   
+- [Windows--MacOS教程安装](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
+- [Windows--如何屏蔽网页广告](https://github.com/KissMyLady/Tools/blob/master/note/adbblock.md)    
+- [Other--上海租房房区间表](https://github.com/KissMyLady/Tools/blob/master/note/shanghai.md)  
+- [Other--平时写的一点小句子](https://github.com/KissMyLady/Tools/blob/master/note/daily_word.md)    
+- [Other--崔永元--教育](https://github.com/KissMyLady/Tools/blob/master/note/cuiyongyuan.md)  
