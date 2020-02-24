@@ -28,6 +28,7 @@
 ## :watermelon: 其他教程    
 - [Linux--Ubuntu安装Java](https://github.com/KissMyLady/Java/blob/master/Note/ut_install_java.md)    
 - [Windows--2020年2月24日测试有效果](https://github.com/zhaoweih/Shadowsocks-Tutorial)  
+* 请注意, vulrt服务商的服务器全部被墙, 不要买他的服务器    
 - [Windows--安装TensorFlow](https://github.com/KissMyLady/Deep-Learning/blob/master/Note/tensorflow_install.md)   
 - [Windows--MacOS教程安装](https://github.com/KissMyLady/Tools/blob/master/Word_Cloud/virtual_mac.md)  
 - [Windows--如何屏蔽网页广告](https://github.com/KissMyLady/Tools/blob/master/note/adbblock.md)    
