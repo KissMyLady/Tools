@@ -18,6 +18,7 @@
 - [3. 视频批量转图片](https://github.com/KissMyLady/Exchaneg-video-to-photo)
 - [4. 可视化](https://github.com/KissMyLady/Tools/blob/master/note/date_vision.md) 
 - [5. Mp3指定播放](https://github.com/KissMyLady/Tools/blob/master/note/mp3_v1.md) 
+- [6. 数字识别--百度云接口](https://github.com/KissMyLady/Tools/blob/master/note/numbers_api.md)  
 
 
 ## :bulb: 永乐大帝(李永乐老师)  
