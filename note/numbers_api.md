@@ -82,21 +82,21 @@ with open(r'G:\content_json.json', 'r', encoding='gbk') as f:
 
 # 数据清洗
 for i in c:
-	if 'words' in i:
-		if '_' in i:
-			pass
-		else:
-			new_i = (i.split(':'))[1]
-			c = re.findall(r'\d+', new_i)
-			print(c)
+    if 'words' in i:
+        if '_' in i:
+            pass
+        else:
+            new_i = (i.split(':'))[1]
+            c = re.findall(r'\d+', new_i)
+            print(c)
 			
-			try:
-				c = int(c[0])
-				writer.writerow([c])
-			except:
-				pass
-	else:
-		pass
+        try:
+            c = int(c[0])
+            writer.writerow([c])
+        except:
+            pass
+    else:
+        pass
 
 csv_file.close()
 ```
@@ -108,24 +108,16 @@ import base64
 
 
 with open(r"G:\big data folder\12-13\图像识别\电话号码\1.jpg", 'rb') as f:
-	base64_data = base64.b64encode(f.read())
-	s = base64_data.decode()
-	# print('data:image/jpeg;base64, %s' % s)
+    base64_data = base64.b64encode(f.read())
+    s = base64_data.decode()
+    # print('data:image/jpeg;base64, %s' % s)
 
 input_path = r'G:\big data folder\12-13\图像识别\电话号码\1.txt'
 with open(input_path, 'a' ,encoding='utf-8') as f:
-	f.write(str(s))
-
-
+    f.write(str(s))
+    
 print(s)
-
-
-
 ```
-
-
-
-
 
 **请求URL数据格式**
 
