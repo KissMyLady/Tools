@@ -203,6 +203,8 @@ XShell上传文件到服务器
 3. 输入rz  
 ![ScreenShot00006](https://github.com/KissMyLady/Tools/blob/master/img/ScreenShot00006.jpg)  
 > 可以看到弹出文件夹, 选择上传就可以了  
+### 下载
+1. 输入 `sudo rz filename`   
 
 Linux与Python更换下载源  
 =====
