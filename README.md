@@ -17,7 +17,7 @@
 - [2. 小说批量转词云](https://github.com/KissMyLady/Word_Cloud)  
 - [3. 视频批量转图片](https://github.com/KissMyLady/Exchaneg-video-to-photo)
 - [4. 可视化](https://github.com/KissMyLady/Tools/blob/master/note/date_vision.md) 
-- [5. Mp3指定播放](https://github.com/KissMyLady/Tools/blob/master/note/mp3_v1.md) 
+- [5. Mp3播放器](https://github.com/KissMyLady/Tools/blob/master/note/mp3_v1.md) 
 - [6. 数字识别--百度云接口](https://github.com/KissMyLady/Tools/blob/master/note/numbers_api.md)  
 
 
