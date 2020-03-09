@@ -1,11 +1,25 @@
 Linux常用命令与初始化配置  
 ======   
+<!-- GFM-TOC -->
+* [一、文件配置](#一文件配置)
+* [二、删除包的方法](#二删除包的方法)
+* [三、Vim配置与使用](#三Vim配置与使用)
+* [四、Vi常用快捷键](#四Vi常用快捷键)
+* [五、程序启动](#五程序启动)
+* [六、Ubuntu如何用命令启动程序启动程序?](#六Ubuntu如何用命令启动程序启动程序？)
+* [七、PS命令](#七PS命令)
+* [八、Ubuntu软件操作的相关命令](#八Ubuntu软件操作的相关命令)
+* [九、XShell上传文件到服务器](#九XShell上传文件到服务器)
+* [十、Linux与Python更换下载源](#十Linux与Python更换下载源)
+* [十一、Python更换下载源](#十一Python更换下载源)
+<!-- GFM-TOC -->
 
-## 文件配置  
+
+## 一、文件配置  
 ![linux-1](https://github.com/KissMyLady/Tools/blob/master/img/linux-1.jpg)  
 
 
-## 删除包的方法    
+## 二、删除包的方法    
 删除软件及其配置文件   
 `apt-get --purge remove <package>`    
 删除没用的依赖包  
@@ -16,7 +30,7 @@ Linux常用命令与初始化配置
 `apt-get --purge remove ruby`  
 `apt-get autoremove ruby`  
 
-## Vim配置与使用  
+## 三、Vim配置与使用  
 安装vim  
 `shudo apt-get install vim`   
 ### Vim设置默认就显示行号    
@@ -40,8 +54,7 @@ Linux常用命令与初始化配置
 >> :set viminfo='1000,<500   
 
 
-Vi常用快捷键 
-====
+## 四、Vi常用快捷键 
 模式介绍         
 1.一般模式:  
 > 以vi打开一个文件就进入一般模式了，该模式可以移动光标，复制，粘贴    
@@ -101,8 +114,7 @@ ctrl+r   ：重做上一个操作
 ：set nonu  ：取消行号    
 
  
-程序启动    
-====
+## 五、程序启动    
 ## Ubuntu如何设置使用快捷键启动程序？    
 Ubuntu系统下可以设置启动程序的快捷键，这样就不用把程序的快捷方式添加到桌面     
 也不用到处找程序的图标，直接使用键盘就可以打开程序了    
@@ -118,15 +130,14 @@ Ubuntu系统下可以设置启动程序的快捷键，这样就不用把程序�
 >>> 点击“禁用”，会显示为“新建快捷键…”，然后按下你希望用的快捷键，比如 Alt+E。
 /usr/share/applications/deepin-terminal
 
-## Ubuntu如何用命令启动程序启动程序？     
+## 六、Ubuntu如何用命令启动程序启动程序？     
 ```Linux
 sudo gedit ~/.bashr       
 export PATH=$PATH:/opt/google/chrome   # chrome所在的目录     
 ```
 
 
-ps命令  
-=====
+## 七、PS命令 
 显示所有当前进程  
 > ps -ax   -a代表all, x参数会显示 没有控制终端的进程    
  
@@ -168,9 +179,7 @@ ps命令
 > watch -n 1 'ps -aux --sort -pmem, -pcpu'  
 
 
-
-Ubuntu软件操作的相关命令 
-=====   
+## 八、Ubuntu软件操作的相关命令 
 ```Linux
 sudo apt-get update  更新源  
 sudo apt-get upgrade 更新已安装的包
@@ -194,8 +203,7 @@ sudo apt-cache depends package 了解使用该包依赖那些包
 sudo apt-cache rdepends package 查看该包被哪些包依赖  
 ```
 
-XShell上传文件到服务器   
-=====
+## 九、XShell上传文件到服务器   
 1. 连接上一台Linux服务器   
 2. 输入rz命令，看是否已经安装了lrzsz     
 > 如果没有安装则执行sudo apt-get install lrzsz安装  
@@ -206,10 +214,9 @@ XShell上传文件到服务器
 ### 下载
 1. 输入 `sudo rz filename`   
 
-Linux与Python更换下载源  
-=====
 
-## 进入文件编辑
+## 十、Linux与Python更换下载源  
+### 进入文件编辑
 `cd /etc/apt/`   
 `sudo vim /etc/apt/sources.list`       
   
@@ -262,7 +269,7 @@ sudo apt-get update
 sudo apt-get upgrade
 ```
 
-## Python更换下载源   
+## 十一、Python更换下载源   
 [点击进入原始作者博客](https://blog.csdn.net/yucicheung/article/details/79095742)    
 国内镜像源列表  
 > 豆瓣(douban) `http://pypi.douban.com/simple/` (推荐)     
